@@ -9,5 +9,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - name: Hello Codelies!
+      - name: Hello Inmortals!
         run: echo "Hello!!!! from ${{ github.workflow }} triggered by the ${{ github.event_name }} done by ${{ github.actor }}"
+
+      - name: Step 2
+        run: echo "Paso 2 ok"
+
